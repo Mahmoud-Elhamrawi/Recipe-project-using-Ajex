@@ -1,0 +1,76 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 15px;
+}
+#select{
+    background-color: #09c;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+}
+#select h3{
+    margin: 20px 0;
+}
+#mySel{
+    width: 100%;
+    border: none;
+    padding: 20px;
+}
+#mySel  option{
+    background-color: red;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+#foods{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.food{
+    flex-basis: 25%;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}  
+.food img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 17%;
+}
+.food h2,
+.food p
+{
+    
+    padding: 4px;
+
+}
+.food p {
+  font-size: 20px;
+  font-weight: 800;
+}
+.food  button{
+    padding: 10px;
+    border: none;
+    margin: 15px 0 ;
+
+}
+.food  button:hover {
+    background-color: #09c;
+}
+.food  button  a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+
+}
